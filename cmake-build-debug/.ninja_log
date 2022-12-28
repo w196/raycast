@@ -1,0 +1,10 @@
+# ninja log v5
+0	171	1672240026930000000	CMakeFiles/raycast.dir/src/main.c.o	7800de058b022eb6
+1	166	1672240085180000000	CMakeFiles/raycast.dir/src/player.c.o	bf1a124d270cac9d
+1	167	1672240085180000000	CMakeFiles/raycast.dir/src/window.c.o	7bffd611c111138e
+1	167	1672240085180000000	CMakeFiles/raycast.dir/src/render.c.o	98acb79d7b7f993b
+1	244	1672240241930000000	CMakeFiles/raycast.dir/src/utils.c.o	f2db852ce1a46f1b
+1	275	1672240241970000000	CMakeFiles/raycast.dir/src/main.c.o	7800de058b022eb6
+2	275	1672240241970000000	CMakeFiles/raycast.dir/src/player.c.o	bf1a124d270cac9d
+1	276	1672240241970000000	CMakeFiles/raycast.dir/src/render.c.o	98acb79d7b7f993b
+276	323	1672240242010000000	raycast	194e13bdf6c26f6d
