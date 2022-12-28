@@ -1,3 +1,0 @@
-/Volumes/T7/code/raycast/build/CMakeFiles/raycast.dir
-/Volumes/T7/code/raycast/build/CMakeFiles/edit_cache.dir
-/Volumes/T7/code/raycast/build/CMakeFiles/rebuild_cache.dir

@@ -18,9 +18,6 @@
 #include "level.c"
 #include "utils.h"
 
-line_t f_buffer[SCRW];
-line_t b_buffer[SCRW];
-
 void r_drawlines(SDL_Renderer*, line_t[], unsigned int /*width*/, unsigned int /*height*/);
 
 line_t r_cast(point_t /*origin*/, double /*angle*/, double /*offset*/);
