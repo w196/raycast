@@ -1,2 +1,0 @@
-/Volumes/T7/code/raycast/build/external/SDL/CMakeFiles/CheckOBJC/CMakeFiles/edit_cache.dir
-/Volumes/T7/code/raycast/build/external/SDL/CMakeFiles/CheckOBJC/CMakeFiles/rebuild_cache.dir
