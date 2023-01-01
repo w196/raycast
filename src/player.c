@@ -12,16 +12,13 @@ player_t p_init(double x, double y, double angle) {
     return buffer;
 }
 
-line_t* p_cast(player_t player) {
-    line_t* framebuffer = malloc(sizeof(line_t)*SCRW);
+line_t* p_cast(player_t player, line_t** framebuffer) {
     
     for (int i = 0; i < SCRW; i++) {
         double i_rel_centre = (i)-(SCRW/2); // position of i relative to centre of screen
         double relative_angle = atan(i_rel_centre / (FLEN * SCRW));
-        framebuffer[i] = r_cast(player.pos, player.angle+(relative_angle * (180/M_PI)), relative_angle);
+        (*framebuffer)[i] = r_cast(player.pos, player.angle+(relative_angle * (180/M_PI)), relative_angle);
     }
-    
-    return framebuffer;
 }
 
 void p_move(player_t* player, move_t move) {

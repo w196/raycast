@@ -95,7 +95,6 @@ void r_drawlines(SDL_Renderer* renderer, line_t lines[], unsigned int w, unsigne
         int offset = lines[i].length/2;
         SDL_RenderDrawLine(renderer, i, centre-offset, i, centre+offset);
     }
-    SDL_RenderPresent(renderer);
 }
 
 line_t r_cast(point_t origin, double angle, double rel_angle) {

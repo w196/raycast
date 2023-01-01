@@ -25,6 +25,6 @@ typedef struct player_s {
 player_t p_init(double, double, double);
 void p_move(player_t*, move_t);
 void p_rotate(player_t*, double);
-line_t* p_cast(player_t);
+line_t* p_cast(player_t, line_t**);
 
 #endif /* player_h */
